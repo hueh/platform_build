@@ -26,11 +26,11 @@ GRANDFATHERED_USER_MODULES :=
 -include vendor/google/user_tags.mk
 
 OPTIONAL_USER_MODULES := \
+	system_server \
 	app_process \
 	surfaceflinger \
 	librs_jni \
 	libRS \
-	libsystem_server \
 	libandroid_servers \
 	libsurfaceflinger \
 	libtestplugin \
@@ -194,6 +194,7 @@ GRANDFATHERED_USER_MODULES += \
 	layoutlib_utils \
 	liba2dp \
 	libabi \
+	libsystem_server \
 	libandroid \
 	libandroid_runtime \
 	libarity \
