@@ -29,6 +29,7 @@ OPTIONAL_USER_MODULES := \
 	system_server \
 	app_process \
 	surfaceflinger \
+	libsystem_server \
 	librs_jni \
 	libRS \
 	libandroid_servers \
@@ -194,7 +195,6 @@ GRANDFATHERED_USER_MODULES += \
 	layoutlib_utils \
 	liba2dp \
 	libabi \
-	libsystem_server \
 	libandroid \
 	libandroid_runtime \
 	libarity \
